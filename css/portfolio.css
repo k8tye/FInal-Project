@@ -104,3 +104,9 @@ h4 {
 .footer-align a.active {
   color: #c5aee4;
 }
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
